@@ -13,7 +13,7 @@ makedepends=('squashfs-tools')
 optdepends=(
     'rxvt-unicode: for GUI support'
     'zenity: for GUI support')
-conflicts=('qemu-android-x86')
+provides=('qemu-android-x86')
 install="qemu-android-x86.install"
 source=("android-x86-${_pkgver}.${arch}.rpm::https://osdn.mirror.constant.com//android-x86/67834/android-x86-7.1-r5.x86_64.rpm"
 		"qemu-android.svg"
