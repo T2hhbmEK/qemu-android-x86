@@ -1,9 +1,9 @@
 # Maintainer: Fernando Ayats <ayatsfer[at]gmail[dot]com>
 groups=('modified')
 pkgname=qemu-android-x86
-_pkgver="7.1-r5"
-pkgver=7.1.r5
-pkgrel=0
+_pkgver="9.0-r2"
+pkgver=9.0.r2
+pkgrel=3
 pkgdesc="Android-x86 environment via QEMU and VirGL"
 arch=("x86_64")
 url="http://www.android-x86.org/"
@@ -14,12 +14,12 @@ optdepends=(
     'rxvt-unicode: for GUI support'
     'zenity: for GUI support')
 install="qemu-android-x86.install"
-source=("android-x86-${_pkgver}.${arch}.rpm::https://osdn.mirror.constant.com//android-x86/67834/android-x86-7.1-r5.x86_64.rpm"
+source=("android-x86-${_pkgver}.${arch}.rpm::https://osdn.mirror.constant.com//android-x86/67834/android-x86-${_pkgver}.${arch}.rpm"
 		"qemu-android.svg"
 		"qemu-android"
 		"config"
 		"qemu-android.desktop")
-sha256sums=('31efd1a4fa9549a91cacb7bdcb256a057158aa57aec632e41922664cedc7cd39'
+sha256sums=('6e54e25d945e050cf6a6ad2ac3e0775add04b1d586989e29276499c8d11e629f'
             '8c80b881727efc8831c8ef53806e7c1d0427607e145aae09061c4870b6cd402f'
             'd11cdc4c2c48039047e323a24a9ec24a0d5eb00dab40f4c6a8140a53f24a089c'
             'f3ba4d22cffe09b492ff439f4aac87cd2e2786af51de0ba7ba67a0b2d0f2eeb0'
