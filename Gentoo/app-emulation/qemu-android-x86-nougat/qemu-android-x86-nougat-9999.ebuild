@@ -7,7 +7,7 @@ inherit rpm git-r3 xdg-utils
 
 DESCRIPTION="Android-x86 environment via QEMU and VirGL"
 HOMEPAGE="https://github.com/viperML/qemu-android-x86"
-SRC_URI="https://osdn.mirror.constant.com//android-x86/67834/android-x86-7.1-r5.x86_64.rpm"
+SRC_URI="https://osdn.mirror.constant.com//android-x86/71931/android-x86-7.1-r5.x86_64.rpm"
 EGIT_REPO_URI="https://github.com/viperML/qemu-android-x86.git"
 EGIT_BRANCH="testing"
 
