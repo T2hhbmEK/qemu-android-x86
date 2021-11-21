@@ -14,7 +14,7 @@ optdepends=(
     'rxvt-unicode: for GUI support'
     'zenity: for GUI support')
 install="qemu-android-x86.install"
-source=("android-x86-${_pkgver}.${arch}.rpm::https://osdn.mirror.constant.com//android-x86/67834/android-x86-${_pkgver}.${arch}.rpm"
+source=("android-x86-${_pkgver}.${arch}.rpm::https://osdn.mirror.constant.com//android-x86/71931/android-x86-${_pkgver}.${arch}.rpm"
 		"qemu-android.svg"
 		"qemu-android"
 		"config"
